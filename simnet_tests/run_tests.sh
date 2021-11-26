@@ -80,7 +80,7 @@ function start_forwading_job {
 }
 
 function update_api {
-  echo "INFO: Updating Polkadot JS API"
+  echo "INFO: Updating AXIA JS API"
   pwd
   cd "${SCRIPT_PATH}"/../../sub-flood/
   npm run build

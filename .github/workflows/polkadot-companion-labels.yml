@@ -1,4 +1,4 @@
-name: Check Polkadot Companion and Label
+name: Check AXIA Companion and Label
 
 on:
   pull_request:

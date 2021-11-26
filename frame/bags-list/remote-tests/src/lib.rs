@@ -28,7 +28,7 @@ pub mod snapshot;
 
 /// A wrapper for a runtime that the functions of this crate expect.
 ///
-/// For example, this can be the `Runtime` type of the Polkadot runtime.
+/// For example, this can be the `Runtime` type of the AXIA runtime.
 pub trait RuntimeT:
 	pallet_staking::Config + pallet_bags_list::Config + frame_system::Config
 {

@@ -39,7 +39,7 @@
 //!
 //!   Stack depth metering is needed to make a wasm blob
 //!   execution deterministic, which in turn is needed by the Parachain Validation Function in
-//! Polkadot.
+//! AXIA.
 //!
 //! ## Inspection
 //!
