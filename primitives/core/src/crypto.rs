@@ -1183,11 +1183,11 @@ mod tests {
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world/DOT", None),
+			TestPair::from_string("hello world/AXC", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: None,
-				path: vec![DeriveJunction::soft("DOT")]
+				path: vec![DeriveJunction::soft("AXC")]
 			})
 		);
 		assert_eq!(
@@ -1199,27 +1199,27 @@ mod tests {
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world//DOT", None),
+			TestPair::from_string("hello world//AXC", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: None,
-				path: vec![DeriveJunction::hard("DOT")]
+				path: vec![DeriveJunction::hard("AXC")]
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world//1/DOT", None),
+			TestPair::from_string("hello world//1/AXC", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: None,
-				path: vec![DeriveJunction::hard(1), DeriveJunction::soft("DOT")]
+				path: vec![DeriveJunction::hard(1), DeriveJunction::soft("AXC")]
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world//DOT/1", None),
+			TestPair::from_string("hello world//AXC/1", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: None,
-				path: vec![DeriveJunction::hard("DOT"), DeriveJunction::soft(1)]
+				path: vec![DeriveJunction::hard("AXC"), DeriveJunction::soft(1)]
 			})
 		);
 		assert_eq!(
@@ -1231,19 +1231,19 @@ mod tests {
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world//1/DOT///password", None),
+			TestPair::from_string("hello world//1/AXC///password", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: Some("password".to_owned()),
-				path: vec![DeriveJunction::hard(1), DeriveJunction::soft("DOT")]
+				path: vec![DeriveJunction::hard(1), DeriveJunction::soft("AXC")]
 			})
 		);
 		assert_eq!(
-			TestPair::from_string("hello world/1//DOT///password", None),
+			TestPair::from_string("hello world/1//AXC///password", None),
 			Ok(TestPair::Standard {
 				phrase: "hello world".to_owned(),
 				password: Some("password".to_owned()),
-				path: vec![DeriveJunction::soft(1), DeriveJunction::hard("DOT")]
+				path: vec![DeriveJunction::soft(1), DeriveJunction::hard("AXC")]
 			})
 		);
 	}
