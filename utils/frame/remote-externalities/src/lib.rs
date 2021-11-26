@@ -48,7 +48,7 @@ pub mod rpc_api;
 type KeyPair = (StorageKey, StorageData);
 
 const LOG_TARGET: &str = "remote-ext";
-const DEFAULT_TARGET: &str = "wss://rpc.polkadot.io:443";
+const DEFAULT_TARGET: &str = "wss://rpc.axia.io:443";
 const BATCH_SIZE: usize = 1000;
 
 #[rpc(client)]
@@ -713,15 +713,15 @@ mod remote_tests {
 			.await
 			.expect(REMOTE_INACCESSIBLE)
 			.execute_with(|| {
-				// Gav's polkadot account. 99% this will be in the council.
-				let gav_polkadot =
+				// Gav's axia account. 99% this will be in the council.
+				let gav_axia =
 					AccountId::from_ss58check("13RDY9nrJpyTDBSUdBw12dGwhk19sGwsrVZ2bxkzYHBSagP2")
 						.unwrap();
 				let members = Members::get();
 				assert!(members
 					.iter()
 					.map(|s| s.who.clone())
-					.find(|a| a == &gav_polkadot)
+					.find(|a| a == &gav_axia)
 					.is_some());
 			});
 	}

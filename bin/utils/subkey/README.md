@@ -59,7 +59,7 @@ Secret phrase `hotel forest jar hover kite book view eight stuff angle legend de
 ---
 ☠️ DO NT RE-USE ANY OF THE SEEDS AND SECRETS FROM THIS PAGE ☠️.
 
-You can read more about security and risks in [SECURITY.md](./SECURITY.md) and in the [AXIA Wiki](https://wiki.polkadot.network/docs/learn-account-generation).
+You can read more about security and risks in [SECURITY.md](./SECURITY.md) and in the [AXIA Wiki](https://wiki.axia.network/docs/learn-account-generation).
 
 ---
 
@@ -240,7 +240,7 @@ You can use the included vanity generator to find a seed that provides an addres
 command:
 
 ```bash
-subkey vanity --network polkadot --pattern bob
+subkey vanity --network axia --pattern bob
 ```
 
 output:

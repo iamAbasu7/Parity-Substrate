@@ -1,7 +1,7 @@
 # Keys and Security
 
 The following information is not exhaustive but meant to prevent the most common mistakes.
-You can read more about security and risks in the [AXIA Wiki](https://wiki.polkadot.network/docs/learn-account-generation).
+You can read more about security and risks in the [AXIA Wiki](https://wiki.axia.network/docs/learn-account-generation).
 The AXIA network has a few **test networks**, e.g. **Westend**. Test networks are a great way to experiment and learn safely as you can lose tokens on those networks without any financial consequences.
 
 `subkey` generates and provides 2 pieces of **secret** information:
