@@ -900,7 +900,7 @@ version = "2.0.0"
 dependencies = [
  "ansi_term 0.12.1",
  "node-cli",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-chain-spec",
  "sc-keystore",
  "sp-core",
@@ -4485,7 +4485,7 @@ dependencies = [
  "node-testing",
  "parity-db",
  "parity-util-mem",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-basic-authorship",
  "sc-client-api",
  "sc-transaction-pool",
@@ -4531,7 +4531,7 @@ dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec",
  "platforms",
- "rand 0.7.3",
+ "rand 0.8.4",
  "regex",
  "remote-externalities",
  "sc-authority-discovery",
@@ -5513,7 +5513,7 @@ dependencies = [
  "pallet-balances",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "sp-arithmetic",
  "sp-core",
@@ -5999,7 +5999,7 @@ dependencies = [
  "pallet-staking-reward-curve",
  "pallet-timestamp",
  "parity-scale-codec",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "sp-core",
  "sp-io",
@@ -6995,7 +6995,6 @@ dependencies = [
  "rand_chacha 0.2.2",
  "rand_core 0.5.1",
  "rand_hc 0.2.0",
- "rand_pcg 0.2.1",
 ]
 
 [[package]]
@@ -7152,15 +7151,6 @@ checksum = "abf9b09b01790cfe0364f52bf32995ea3c39f4d2dd011eac241d2914146d0b44"
 dependencies = [
  "autocfg 0.1.7",
  "rand_core 0.4.2",
-]
-
-[[package]]
-name = "rand_pcg"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "16abd0c1b639e9eb4d7c50c0b8100b0d0f849be2349829c740fe8e6eb4816429"
-dependencies = [
- "rand_core 0.5.1",
 ]
 
 [[package]]
@@ -7574,7 +7564,7 @@ dependencies = [
  "prost",
  "prost-build",
  "quickcheck",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-client-api",
  "sc-network",
  "sp-api",
@@ -7667,7 +7657,7 @@ dependencies = [
  "log 0.4.14",
  "names",
  "parity-scale-codec",
- "rand 0.7.3",
+ "rand 0.8.4",
  "regex",
  "rpassword",
  "sc-client-api",
@@ -7828,7 +7818,7 @@ dependencies = [
  "num-traits",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "rand 0.7.3",
+ "rand 0.8.4",
  "rand_chacha 0.2.2",
  "retain_mut",
  "sc-block-builder",
@@ -8224,7 +8214,7 @@ dependencies = [
  "prost",
  "prost-build",
  "quickcheck",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-block-builder",
  "sc-client-api",
  "sc-consensus",
@@ -8280,7 +8270,7 @@ dependencies = [
  "libp2p",
  "log 0.4.14",
  "parking_lot 0.11.1",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-block-builder",
  "sc-client-api",
  "sc-consensus",
@@ -8312,7 +8302,7 @@ dependencies = [
  "once_cell",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-block-builder",
  "sc-client-api",
  "sc-client-db",
@@ -8339,7 +8329,7 @@ dependencies = [
  "futures 0.3.16",
  "libp2p",
  "log 0.4.14",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-utils",
  "serde_json",
  "wasm-timer",
@@ -8462,7 +8452,7 @@ dependencies = [
  "parity-util-mem",
  "parking_lot 0.11.1",
  "pin-project 1.0.8",
- "rand 0.7.3",
+ "rand 0.8.4",
  "sc-block-builder",
  "sc-chain-spec",
  "sc-client-api",
@@ -8590,7 +8580,7 @@ dependencies = [
  "log 0.4.14",
  "parking_lot 0.11.1",
  "pin-project 1.0.8",
- "rand 0.7.3",
+ "rand 0.8.4",
  "serde",
  "serde_json",
  "thiserror",
@@ -9203,7 +9193,7 @@ dependencies = [
  "num-traits",
  "parity-scale-codec",
  "primitive-types",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "serde",
  "sp-debug-derive",
@@ -9389,7 +9379,7 @@ dependencies = [
  "parity-util-mem",
  "parking_lot 0.11.1",
  "primitive-types",
- "rand 0.7.3",
+ "rand 0.8.4",
  "regex",
  "scale-info",
  "schnorrkel",
@@ -9538,7 +9528,7 @@ dependencies = [
  "merlin",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "rand 0.7.3",
+ "rand 0.8.4",
  "rand_chacha 0.2.2",
  "schnorrkel",
  "serde",
@@ -9558,7 +9548,7 @@ name = "sp-npos-elections"
 version = "4.0.0-dev"
 dependencies = [
  "parity-scale-codec",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "serde",
  "sp-arithmetic",
@@ -9575,7 +9565,7 @@ version = "2.0.0-alpha.5"
 dependencies = [
  "honggfuzz",
  "parity-scale-codec",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "sp-npos-elections",
  "sp-runtime",
@@ -9636,7 +9626,7 @@ dependencies = [
  "parity-scale-codec",
  "parity-util-mem",
  "paste 1.0.6",
- "rand 0.7.3",
+ "rand 0.8.4",
  "scale-info",
  "serde",
  "serde_json",
@@ -9779,7 +9769,7 @@ dependencies = [
  "parity-scale-codec",
  "parking_lot 0.11.1",
  "pretty_assertions",
- "rand 0.7.3",
+ "rand 0.8.4",
  "smallvec 1.7.0",
  "sp-core",
  "sp-externalities",
@@ -10953,7 +10943,7 @@ version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f559b464de2e2bdabcac6a210d12e9b5a5973c251e102c44c585c71d51bd78e"
 dependencies = [
- "cfg-if 1.0.0",
+ "cfg-if 0.1.10",
  "rand 0.8.4",
  "static_assertions",
 ]
